@@ -4,11 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Mundo Invertido | Semana Front-end</title>
+
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
-<body>
+<body class="light-theme">
     <header>
-        <audio src="assets/musics/normal-world.mpeg"></audio>
+        <audio id="music" autoplay>
+            <source src="assets/musics/normal-world.mpeg"/>
+
+        </audio>
         <div class="header-content">
             <img src="assets/images/banner/logo.svg" alt="Imagem pincipal">
             <p class="invert-element" role="text">
@@ -16,7 +21,8 @@
             </p>
             <button id="switch-theme-button" onclick="switchTheme()">Inverter Mundo</button>
         </div>
-        <div id="top-characteres" class="world-characters"></div>
+        
+        <div id="top-characters" class="world-characters"></div>
     </header>
 
     <main>
@@ -105,6 +111,6 @@
         </p>
         <img src="assets/images/footer/logo.svg" alt="Logo DIO">
     </footer>
-        
+    <script src="assets/Js/script.js"></script>    
 </body>
 </html>
