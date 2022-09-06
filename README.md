@@ -10,7 +10,12 @@ Projeto criado durante a semana front-end da DIO
 - CSS
 - JavaScript
 
+## Printscreen
+
+![screenshot](assets/images/screenshot/Screenshot_desk.png)
+
 # Contato :link:
 
-[LinkedIn](https://www.linkedin.com/in/yagowill/) 
-<yagowill3@gmail.com>
+[LinkedIn](https://www.linkedin.com/in/yagowill/)
+
+[E-mail](mailto:yagowill3@gmail.com)
